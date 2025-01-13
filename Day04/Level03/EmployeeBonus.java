@@ -51,10 +51,7 @@ public class EmployeeBonus {
         double totalOldSalary = 0;
         double totalNewSalary = 0;
         double totalBonus = 0;
-
-        System.out.println("---------------------------------------------------------");
         System.out.println("| Employee | Old Salary | New Salary | Bonus  |");
-        System.out.println("---------------------------------------------------------");
 
         // Display each employee's data and calculate total values
         for (int i = 0; i < 10; i++) {
@@ -71,7 +68,7 @@ public class EmployeeBonus {
             totalBonus += bonus;
         }
 
-        System.out.println("---------------------------------------------------------");
+        
 
         // Display the total old salary, total new salary, and total bonus
         System.out.printf("\nTotal Old Salary: %.2f\n", totalOldSalary);
